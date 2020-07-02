@@ -1,5 +1,7 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(string)
+  if string.uppercase == string
+    return ""
 end
 
 # Whatever you say to grandma, she should respond with
